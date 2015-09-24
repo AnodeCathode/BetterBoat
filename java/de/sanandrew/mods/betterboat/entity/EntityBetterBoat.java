@@ -363,7 +363,7 @@ public class EntityBetterBoat
                         Entity entity = (Entity) entityObj;
 
                         if( entity != this.riddenByEntity ) {
-                            if( entity.canBePushed() && entity instanceof EntityBoat ) {
+                            if( entity.canBePushed() && entity instanceof EntityBetterBoat ) {
                                 entity.applyEntityCollision(this);
                             } else if( entity instanceof EntityLivingBase ) {
                                 entity.applyEntityCollision(this);
