@@ -387,10 +387,10 @@ public class EntityBetterBoat
 
             if( this.isCollidedHorizontally && horizMotion > 0.2D ) {
                 if( !this.worldObj.isRemote && !this.isDead ) {
-                    this.setDead();
+                    //this.setDead();
 
                     if( !(this.riddenByEntity instanceof EntityPlayer && ((EntityPlayer)this.riddenByEntity).capabilities.isCreativeMode) ) {
-                        this.func_145778_a(Items.boat, 1, 0.0F);
+                        //this.func_145778_a(Items.boat, 1, 0.0F);
                     }
                 }
             } else {
